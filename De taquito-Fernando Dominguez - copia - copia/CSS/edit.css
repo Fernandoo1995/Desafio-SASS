@@ -1,0 +1,294 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0;
+}
+
+h1 {
+  font-size: 100px;
+  border-color: gray;
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  border-color: gray solid;
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 34px;
+  color: rgb(255, 255, 255);
+  font-family: "Bebas Neue", cursive;
+}
+
+h3 {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  font-family: "Bebas Neue", cursive;
+}
+
+h4 {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+p {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  font-family: "Patua One", cursive;
+}
+
+body {
+  background-image: linear-gradient(to top, rgb(38, 157, 225), #011e4c);
+}
+
+header {
+  background-color: rgb(38, 157, 225);
+  border-bottom: 3px solid rgb(255, 255, 255);
+}
+header .contenedor {
+  max-width: 1200px;
+  margin: auto;
+}
+header .contenedor nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 20px;
+}
+header .contenedor nav a {
+  padding: 5px 12px;
+  color: rgb(255, 255, 255);
+  font-family: "Bebas Neue", cursive;
+}
+header .contenedor nav a:hover {
+  color: rgb(9, 15, 75);
+}
+header .contenedor header .img-contenedor {
+  margin-top: 0;
+  padding: 25px 30px;
+}
+
+/*Portada*/
+#hero {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url("/Multimedia/uru.png");
+  color: rgb(255, 255, 255);
+  background-size: cover;
+  background-position: center center;
+}
+
+/*Noticias destacados*/
+#noti-destacadas {
+  text-align: center;
+}
+#noti-destacadas .contenedor {
+  padding: 145px 10px;
+}
+#noti-destacadas .noti1 {
+  margin-top: 40px;
+}
+#noti-destacadas .noti2 {
+  margin-top: 40px;
+}
+#noti-destacadas .noti3 {
+  margin-top: 40px;
+}
+#noti-destacadas h2 {
+  margin: 0px;
+}
+#noti-destacadas p {
+  display: none;
+}
+
+.ads {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  background-color: linear-gradient(to top, rgb(38, 157, 225), #011e4c);
+  margin-top: 20px;
+}
+
+/*CAMPEONATO URUGUAYO*/ /*CAMPEONATO URUGUAYO*/ /*CAMPEONATO URUGUAYO*/ /*CAMPEONATO URUGUAYO*/ /*CAMPEONATO URUGUAYO*/ /*CAMPEONATO URUGUAYO*/
+.camp-uru-1 {
+  margin-left: 15px;
+}
+.camp-uru-1 .imgbolso {
+  width: 400px;
+  height: 300px;
+}
+.camp-uru-1 .texto-noti-1 {
+  margin-bottom: 0px;
+}
+
+.camp-uru-2 {
+  margin-left: 15px;
+  margin: 50px;
+}
+.camp-uru-2 .imgmanya {
+  width: 400px;
+  height: 300px;
+}
+/*FUTBOL FEMENINO*/
+.futf-noti-1 {
+  margin-left: 15px;
+  margin: 50px;
+}
+.futf-noti-2 {
+  margin-left: 15px;
+  margin: 50px;
+}
+/*Futbol Internacional*/
+.futbol-internacional-noti-1 {
+  margin-left: 15px;
+  margin: 50px;
+}
+.futbol-internacional-noti-2 {
+  margin-left: 15px;
+  margin: 50px;
+}
+.futbol-internacional-noti-2 .imginter-2 {
+  margin: 5px;
+}
+.redes {
+  display: flex;
+}
+.redes h4 {
+  font-size: 15px;
+}
+.redes .fb {
+  margin-left: 15px;
+}
+.redes .tw {
+  margin-left: 5px;
+}
+.redes .ig {
+  margin-left: 5px;
+  margin-right: 15px;
+}
+
+@media (min-width: 720px) {
+  header {
+    width: 100%;
+  }
+  header .contenedor {
+    height: 60px;
+    justify-content: space-between;
+  }
+  header .contenedor nav {
+    flex-direction: row-reverse;
+    padding-bottom: 0px;
+    margin-bottom: 250px;
+  }
+  header .contenedor nav a {
+    padding: 5px 12px;
+    color: rgb(255, 255, 255);
+  }
+  .noti1 {
+    margin-top: 40px;
+  }
+  .noti2 {
+    margin-top: 40px;
+  }
+  .noti3 {
+    margin-top: 40px;
+  }
+  .noticias h3 {
+    margin-bottom: 15px;
+  }
+  #noti-destacadas .contenedor {
+    display: flex;
+  }
+  #noti-destacadas p {
+    display: inline-block;
+    margin-bottom: 30px;
+  }
+  #noti-destacadas h3 {
+    justify-content: center;
+  }
+  .camp-uru-1 {
+    margin-left: 15px;
+    margin: 60px;
+  }
+  .camp-uru-1 .titulo-noti-1 {
+    color: rgb(255, 255, 255);
+  }
+  .camp-uru-1 .subtitulo-noti-1 {
+    margin: 0px;
+  }
+  .camp-uru-1 .imgbolso {
+    float: right;
+  }
+  .camp-uru-1 .texto-noti-1 {
+    color: rgb(255, 255, 255);
+  }
+  .camp-uru-2 {
+    margin-left: 15px;
+    margin: 60px;
+  }
+  .camp-uru-2 .imgmanya {
+    float: left;
+    margin: 5px 5px;
+  }
+  .futf-noti-1 {
+    margin-left: 15px;
+    margin: 60px;
+  }
+  .futf-noti-1 .img-femenino-1 {
+    float: right;
+  }
+  .futf-noti-2 {
+    margin-left: 15px;
+    margin: 60px;
+  }
+  .futf-noti-2 .img-femenino-2 {
+    float: left;
+    margin-right: 15px;
+  }
+  .futbol-internacional-noti-1 {
+    margin-left: 15px;
+    margin: 60px;
+  }
+  .futbol-internacional-noti-1 .imginter-1 {
+    float: right;
+  }
+  .futbol-internacional-noti-1 .texto-fut-inter-1 {
+    color: rgb(255, 255, 255);
+  }
+  .futbol-internacional-noti-2 {
+    margin-left: 15px;
+    margin: 60px;
+  }
+  .futbol-internacional-noti-2 .imginter-2 {
+    float: left;
+  }
+  .redes {
+    display: inline-flex;
+    justify-content: center;
+  }
+  .redes h4 {
+    font-size: 15px;
+  }
+  .fb {
+    margin-left: 15px;
+  }
+  .tw {
+    margin-left: 5px;
+  }
+  .ig {
+    margin-left: 5px;
+    margin-right: 15px;
+  }
+  footer {
+    text-align: center;
+    background-color: linear-gradient(to top, rgb(38, 157, 225), #011e4c);
+    margin-top: 20px;
+  }
+}
+
+/*# sourceMappingURL=edit.css.map */

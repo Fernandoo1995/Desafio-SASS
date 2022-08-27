@@ -1,0 +1,394 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    
+}
+
+
+$color-degrade: linear-gradient(to top,rgb(38, 157, 225), #011e4c);
+$color-letras: rgb(255, 255, 255);
+
+h1{font-size: 100px;
+    border-color: gray;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    border-color: gray solid;
+    font-size: 50px}
+ 
+ h2{font-size: 34px; color: $color-letras; font-family: 'Bebas Neue', cursive;}
+ 
+ h3{font-size: 25px; color: $color-letras; font-family: 'Bebas Neue', cursive;}
+ 
+     h4{font-size: 20px; color: $color-letras;}
+ 
+     p{font-size: 18px; color: $color-letras; font-family: 'Patua One', cursive;}
+ 
+ 
+
+
+     
+body{background-image: $color-degrade}
+    
+
+
+
+header{
+    background-color: rgb(38, 157, 225);
+    border-bottom: 3px solid $color-letras;
+    
+    .contenedor{
+        max-width: 1200px;
+        margin: auto;  
+        
+        nav{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding-bottom: 20px;
+                 
+            a{
+                    padding: 5px 12px;
+                    color: $color-letras;
+                    font-family: 'Bebas Neue', cursive;
+                    }
+                          a:hover{color: rgb(9, 15, 75);}}
+        
+            header .img-contenedor{
+                margin-top: 0;
+                padding: 25px 30px;}} 
+   
+   
+   
+}
+
+
+
+/*Portada*/
+
+
+    #hero{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+        background-image: url("/Multimedia/uru.png");
+        color: $color-letras;
+        background-size: cover;
+        background-position: center center;
+    }
+
+/*Noticias destacados*/
+   
+
+    #noti-destacadas{
+        text-align: center;
+       
+        .contenedor{
+            padding: 145px 10px;}
+                
+                .noti1{margin-top: 40px;}
+                .noti2{margin-top: 40px;}
+                .noti3{margin-top: 40px;}
+
+                         h2{margin: 0px;}
+    
+                         p{display: none;}}
+
+
+
+
+                         
+ .ads{
+    text-align: center;
+    
+ }
+
+
+ 
+
+ footer{
+    text-align: center;
+   background-color: $color-degrade ;
+   margin-top: 20px;
+ }
+
+/*CAMPEONATO URUGUAYO*/ /*CAMPEONATO URUGUAYO*/ /*CAMPEONATO URUGUAYO*/ /*CAMPEONATO URUGUAYO*/ /*CAMPEONATO URUGUAYO*/ /*CAMPEONATO URUGUAYO*/
+
+.camp-uru-1{
+    margin-left: 15px;
+         
+        .titulo-pag1{}
+
+                    .titulo-noti-1{}
+    
+                            
+                        
+                                .imgbolso{width: 400px;
+                                    height: 300px;}
+    
+                                        .texto-noti-1{
+                                                margin-bottom: 0px;}}
+
+
+.camp-uru-2{margin-left: 15px;
+            margin: 50px;
+            
+            .titulo-noti-2{}
+                                                
+            .subtitulo-noti-2{}
+            
+            .imgmanya{width: 400px;
+              height: 300px;}
+            
+            .texto-noti-2{}}
+                                                
+                                               
+/*FUTBOL FEMENINO*/
+
+
+
+
+                .futf-noti-1{margin-left: 15px;
+                    margin: 50px;
+
+                    .titulo-fut-femenino-1{}
+
+                    .subtitulo-fut-femenino-1{}
+                    
+                    .img-femenino-1{}
+                    
+                    .texto-fut-femenino-1{} 
+                }
+
+
+
+                .futf-noti-2{margin-left: 15px;
+                    margin: 50px; 
+                    
+                    .titulo-fut-femenino-2{}
+                
+                    .subtitulo-fut-femenino-2{}
+                    
+                    .img-femenino-2{}
+                    
+                    .texto-fut-femenino-2{
+                        }}
+
+
+
+/*Futbol Internacional*/
+
+
+.futbol-internacional-noti-1{margin-left: 15px;
+    margin: 50px;
+
+    .titulo-futbol-inter-1{}
+
+    .subtitulo-futbol-inter-1{}
+    
+    .imginter-1{}
+    
+    .texto-fut-inter-1{}}
+
+
+    .futbol-internacional-noti-2{margin-left: 15px;
+        margin: 50px;
+        
+        .titulo-futbol-inter-2{}
+    
+        .subtitulo-futbol-inter-2{}
+        
+        .imginter-2{margin: 5px;}
+        
+        .texto-fut-inter-2{}}
+
+
+.redes{
+            display: flex;
+           
+                 h4{font-size: 15px;}
+
+                 .fb
+{margin-left: 15px;}
+
+.tw{margin-left: 5px;}
+
+
+.ig{margin-left: 5px;
+margin-right: 15px;}}
+
+
+
+
+
+
+@media (min-width: 720px) /**ESCRITORIO ESCRITORIO ESCRITORIO ESCRITORIO ESCRITORIO ESCRITORIO ESCRITORIO ESCRITORIO ESCRITORIO ESCRITORIO ESCRITORIO ESCRITORIO ESCRITORIO **/
+{
+    header{
+        width: 100%;
+        
+         .contenedor{
+           
+            height: 60px;
+            justify-content: space-between;
+           
+            nav{flex-direction:row-reverse; 
+                padding-bottom: 0px;
+                
+            
+                a{padding: 5px 12px;                                           
+                    color: $color-letras;}
+                    margin-bottom: 250px;}
+                }
+                }
+
+                                           
+                    
+                    
+                    .noti1{margin-top: 40px;}
+                    .noti2{margin-top: 40px;}
+                    .noti3{margin-top: 40px;}
+                    .noticias h3{margin-bottom: 15px;}
+
+
+#noti-destacadas{ 
+            .contenedor{
+                    display: flex;}
+    
+                      p{display: inline-block;margin-bottom: 30px; }
+
+                      h3{justify-content: center;}
+
+
+
+
+} 
+
+.camp-uru-1{
+    margin-left: 15px;
+    margin: 60px;
+    .titulo-pag1{
+   
+    }
+    
+    .titulo-noti-1{
+       color: $color-letras;
+      
+       
+    }
+    
+    .subtitulo-noti-1{
+        margin: 0px;
+        
+    }
+    
+    .imgbolso{
+        float: right;
+    }
+    
+    .texto-noti-1{color: $color-letras;
+    ;}}
+
+.camp-uru-2{
+    margin-left: 15px;
+    margin: 60px;
+   
+    .titulo-noti-2{
+   
+    }
+    
+    .subtitulo-noti-2{
+       
+    }
+    
+    .imgmanya{
+        float: left;
+        margin: 5px 5px;
+    }
+    
+    .texto-noti-2{}}
+
+
+    .futf-noti-1{margin-left: 15px;
+        margin: 60px;
+        .titulo-fut-femenino-1{}
+    
+        .subtitulo-fut-femenino-1{}
+        
+        .img-femenino-1{
+            float: right;
+        }
+        
+        .texto-fut-femenino-1{
+            
+        }}
+
+
+        .futf-noti-2{margin-left: 15px;
+            margin: 60px;
+            .titulo-fut-femenino-2{}
+        
+            .subtitulo-fut-femenino-2{}
+            
+            .img-femenino-2{float: left;
+            margin-right: 15px;}
+            
+            .texto-fut-femenino-2{}}
+
+            .futbol-internacional-noti-1{margin-left: 15px;
+                margin: 60px;
+                .titulo-futbol-inter-1{}
+            
+                .subtitulo-futbol-inter-1{}
+                
+                .imginter-1{float: right;}
+                
+                .texto-fut-inter-1{color: $color-letras;}}
+            
+
+                .futbol-internacional-noti-2{margin-left: 15px;
+                    margin: 60px;
+                    .titulo-futbol-inter-2{}
+                
+                    .subtitulo-futbol-inter-2{}
+                    
+                    .imginter-2{float: left;}
+                    
+                    .texto-fut-inter-2{
+                        
+                    }}
+                
+
+
+                    .redes{
+                        display:inline-flex;
+                        justify-content: center;
+                    }
+                    .redes h4{
+                      font-size: 15px;
+                    }
+                
+                
+                    .fb
+                    {margin-left: 15px;}
+                    
+                    .tw{
+                        margin-left: 5px;
+                    }
+                    
+                    
+                    .ig{margin-left: 5px;
+                    margin-right: 15px;}
+                    
+                    
+             
+                    footer{
+                     text-align: center;
+                       background-color: $color-degrade;
+                       margin-top: 20px;
+                     } 
+        
+        }
